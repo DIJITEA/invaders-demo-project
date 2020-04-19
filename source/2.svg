@@ -7,13 +7,82 @@ viewBox="0 0 50000 50000"
  <defs>
   <style type="text/css">
    <![CDATA[
-    .str0 {stroke:#99FFFF;stroke-width:20;stroke-miterlimit:22.9256}
-    .fil0 {fill:#99FFFF}
+    .str0 {stroke:#32EDED;stroke-width:20;stroke-miterlimit:22.9256}
+    .fil0 {fill:#32EDED}
    ]]>
   </style>
+   <clipPath id="id0">
+    <rect x="64034.45" y="-21121.4" width="36124.44" height="20320"/>
+   </clipPath>
  </defs>
  <g id="Слой_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <rect class="fil0 str0" x="5507.22" y="5511.35" width="38981.41" height="38981.41"/>
+  <g style="clip-path:url(#id0)">
+   <image x="64034.45" y="-21121.4" width="36124.44" height="20320" xlink:href="2_Images\2_ImgID1.png"/>
+  </g>
+  <rect class="fil0 str0" x="15812.65" y="6631.51" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="20405.29" y="6631.51" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="24997.93" y="6631.51" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="29590.57" y="6631.51" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="15812.65" y="11224.15" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="20405.29" y="11224.15" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="24997.93" y="11224.15" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="29590.57" y="11224.15" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="11220.01" y="11224.15" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="34183.21" y="11224.15" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="15812.65" y="15816.79" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="20405.29" y="15816.79" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="24997.93" y="15816.79" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="29590.57" y="15816.79" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="6627.37" y="15816.79" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="11220.01" y="15816.79" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="34183.21" y="15816.79" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="38775.85" y="15816.79" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="20405.29" y="20409.43" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="24997.93" y="20409.43" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="6627.37" y="20409.43" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="38775.85" y="20409.43" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="2034.73" y="20409.43" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="43368.49" y="20409.43" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="20405.29" y="25002.07" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="24997.93" y="25002.07" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="6627.37" y="25002.07" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="38775.85" y="25002.07" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="2034.73" y="25002.07" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="43368.49" y="25002.07" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="15812.65" y="29594.71" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="20405.29" y="29594.71" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="24997.93" y="29594.71" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="29590.57" y="29594.71" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="6627.37" y="29594.71" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="11220.01" y="29594.71" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="34183.21" y="29594.71" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="38775.85" y="29594.71" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="15812.65" y="34187.35" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="29590.57" y="34187.35" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="20405.29" y="38779.99" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="24997.93" y="38779.99" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="6627.37" y="38779.99" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="11220.01" y="38779.99" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="34183.21" y="38779.99" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="38775.85" y="38779.99" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="15812.65" y="29594.71" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="20405.29" y="29594.71" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="24997.93" y="29594.71" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="29590.57" y="29594.71" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="6627.37" y="29594.71" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="11220.01" y="29594.71" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="34183.21" y="29594.71" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="38775.85" y="29594.71" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="2034.73" y="43372.63" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="43368.49" y="43372.63" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="20405.29" y="2038.87" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="24997.93" y="2038.87" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="29590.57" y="25002.07" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="34183.21" y="20409.43" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="15812.65" y="25002.07" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="11220.01" y="20409.43" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="29590.57" y="43372.63" width="4592.64" height="4592.64"/>
+  <rect class="fil0 str0" x="15812.65" y="43372.63" width="4592.64" height="4592.64"/>
  </g>
 </svg>
