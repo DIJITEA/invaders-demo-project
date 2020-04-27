@@ -121,6 +121,11 @@ document.addEventListener("keydown", function (event) {
 //   }
 var pic = 1;
 var ay = 100;
+var downmove = 0;
+
+var win = 0;
+var lose = 0;
+
 // var ax = window.innerWidth/4 * 3 -50;
 var ax = window.innerWidth / 4;
 var moveSet = new Set([0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
@@ -139,7 +144,7 @@ class Alien {
       context.drawImage(
         img,
         apos,
-        ay * life,
+        ay * life + downmove,
         window.innerHeight / 21,
         window.innerHeight / 21
       );
@@ -172,9 +177,10 @@ function alispawn() {
     // if (ai == 29){svgdf = 20;}
     // else if (ai == 19) {svgdf = 30;}
     // else if (ai == 29)  {svgdf = 10;}
+  
     if (
-      ((ay * aif) + 4 < shoot.y) &&
-      shoot.y < (ay * aif) + 17 &&
+      ((ay * aif) + downmove + 4 < shoot.y ) &&
+      shoot.y < (ay * aif) + downmove  + 17 &&
       (ax + ai * (window.innerWidth / 21) == shoot.x ||
         (ax + ai * (window.innerWidth / 21) < shoot.x &&
           ax + ai * (window.innerWidth / 21) + window.innerHeight / 21 >
@@ -186,11 +192,26 @@ function alispawn() {
       moveSet.delete(ai);
       moveSet.delete((aif * 10) + ai);
       moveborders();
+      mina();
+      win = win + 1;
+      if (win == 30){
+        win = 1;
+        document.getElementById('Result').classList.add('result');
+        document.getElementById('Win').classList.add('result');
+      }
       // console.log(moveSet.has(0));
     }
     Alis = new Alien(ax + ai * (window.innerWidth / 21), alienslives[ai]);
     // console.log(ay + 7, shoot.y);
     Alis.draw();
+
+    if ((ay * aif) + downmove + 20 > player.y && alienslives[ai] != 0 && lose == 0){
+      console.log("you lose");
+      lose = 1;
+      document.getElementById('Result').classList.add('result');
+      document.getElementById('Lose').classList.add('result');
+    }
+
     // if (ai < 10) {
     // Alis.draw();
     // } else if (ai < 20) {
@@ -264,10 +285,16 @@ function fire() {
  
 }
 
+function dmove() {
+  downmove = downmove + 20;
+  console.log(downmove, player.y )
+}
+
 function update() {
   // меняем координаты шарика
   if (shoot.y > 0) {
     shoot.y -= 10;
+  
     // shootcf.y -= 10;
   }
 }
@@ -322,7 +349,7 @@ function init() {
  
   // canvas.onmousemove = playerMove;
   setInterval(play, 1000/50);
-
+  setInterval(dmove, 2500);
   // canvas.onclick = fire;
 
   draw();
