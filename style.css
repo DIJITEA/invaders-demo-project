@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "VCROSDMono";
+  src: url("./source/fonts/VCROSDMONO1001.eot");
+  src: url("./source/fonts/VCROSDMONO1001.eot?#iefix") format("embedded-opentype"),
+    url("./source/fonts/VCROSDMONO1001.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.border{
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  z-index: 1;
+  background-color: black;
+}
+.border h1{
+  position: absolute;
+  font-family: "VCROSDMono";
+  font-size: 5vh;
+  top: 10%;
+  left: 5%;
+  color: aliceblue;
+}
+.border h2{
+  position: absolute;
+  font-family: "VCROSDMono";
+  font-size: 5vh;
+  top: 20%;
+  left: 5%;
+  color: aliceblue;
+}
+.border2{
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  left: 75%;
+  z-index: 1;
+  background-color: black;
+}
+.resulttable{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30%;
+  height: 20%;
+  background-color: whitesmoke;
+  overflow: hidden;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+}
+.resulttable h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  font-family: "VCROSDMono";
+}
+.resulttable h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  font-family: "VCROSDMono";
+}
+.result{
+  opacity: 1;
+}
+.resulttable .result{
+  opacity: 1;
+}
+.hideline{
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 5%;
+  background-color: black;
+}
